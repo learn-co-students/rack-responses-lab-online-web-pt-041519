@@ -11,6 +11,8 @@ class Application
       resp.write "Good Morning!"
     end
 
+    resp.write "\nTime is now #{now}"
+
     resp.finish
   end
 
